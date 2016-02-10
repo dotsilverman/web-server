@@ -49,3 +49,16 @@
 
 * "refactoring" a program
 
+* SECTION 50: Heroku
+
+* generate an ssh key w/terminal command: ssh-keygen -t rsa -b 4096 -C "dot.silverman10@gmail.com"
+
+* to see your rsa key, type terminal command: more ~/.ssh/id_ras.pub
+
+* then needed to add the new ssh key to the ssh-agent: https://help.github.com/articles/adding-a-new-ssh-key-to-the-ssh-agent/
+
+* git push -u original master: command where want to push to original and the brach is master
+
+* git remote -v 
+
+* git u flag: The -u option do the following: For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull and other commands. (from http://stackoverflow.com/questions/18867824/what-does-the-u-flag-mean-in-git-push-u-origin-master)
