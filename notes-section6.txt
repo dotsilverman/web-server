@@ -1,0 +1,43 @@
+* get corresponds to http request method
+
+* a "route" is a different url route: like http:dot/aboutme or hettp:dot/runningstuff
+	
+	* routes require 2 input parameters: request, response
+
+* HTML 
+
+	* doctype tells us what type of html we're using
+
+* SECTION 47: MIDDLEWEAR IS AWESOME
+
+* middlewear makes it easy to run a specific function for all of your routes (have a specific function for http://dot/aboutme vs http://dot/homepage).
+
+	* application vs route middlewear
+
+	* middlewear functions include 3 parameters:
+
+		* requireAuthentication: function (request, response, next) {}
+
+	* whenever want to add route-specific middlewear, add it as the 2nd 
+
+	* request objects
+
+	* favicon.ico
+
+* express documentation: http://expressjs.com/en/api.html#app.use
+
+* SECTION 48: USING GIT
+
+* git configurations we used
+	
+	* git config --global user.name "Dot Silverman"
+	* git config --global user.email "dot.silverman10@gmail.com"
+	* git conifg --global push.default matching
+	* git config --flobal alias.co checkout
+
+* useful commands
+	* ls -a command
+	* git status
+	* git rm --cached -r node_modules
+	* make a file called .gitignore with path of files for git to ignore when add files 
+
