@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000; // for heroku
 
 // want to define middleware at the top of the file
 
