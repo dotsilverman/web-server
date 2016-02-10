@@ -2,18 +2,10 @@ var express = require('express');
 var app = express();
 var PORT = 3000;
 
-// must specify middlewear up topreq
-var middleware = {
-	requireAuthentication: function (req, res, next) {
-		console.log('private route hit!');
-		next();
-	},
-	logger: function (req, res, next) {
-		var d = new Date().toString();
-		console.log('Request: ' + req.method + ' ' + req.originalUrl + ' at ' + d);
-		next();
-	}	
-};
+// want to define middleware at the top of the file
+
+// require the local file middleware.js
+var middleware = require('./middleware.js');
 
 // app.use mounts the middleware functions (defined in var middleware, at the path)
 //app.use(middleware.requireAuthentication);

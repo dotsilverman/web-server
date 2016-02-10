@@ -1,4 +1,6 @@
-* get corresponds to http request method
+* require/exports: http://openmymind.net/2012/2/3/Node-Require-and-Exports/
+
+*get corresponds to http request method
 
 * a "route" is a different url route: like http:dot/aboutme or hettp:dot/runningstuff
 	
@@ -40,4 +42,10 @@
 	* git status
 	* git rm --cached -r node_modules
 	* make a file called .gitignore with path of files for git to ignore when add files 
+	* commit a file: git commit -a -m "Initialize repo"
+
+* git commit -a will add all new and old files and update, while just git commit -a will update 
+  files that had already been added to repo
+
+* "refactoring" a program
 
